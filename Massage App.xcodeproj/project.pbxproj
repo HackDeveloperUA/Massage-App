@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C8E7E8D1B3071F300EF5185 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8E7E8B1B3071F300EF5185 /* MessageUI.framework */; };
+		6CE4B4501B2F097200E28CE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4B44F1B2F097200E28CE9 /* main.m */; };
+		6CE4B4531B2F097200E28CE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4B4521B2F097200E28CE9 /* AppDelegate.m */; };
+		6CE4B4591B2F097200E28CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B4571B2F097200E28CE9 /* Main.storyboard */; };
+		6CE4B45B1B2F097200E28CE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B45A1B2F097200E28CE9 /* Images.xcassets */; };
+		6CE4B45E1B2F097200E28CE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B45C1B2F097200E28CE9 /* LaunchScreen.xib */; };
+		6CE4B46A1B2F097200E28CE9 /* Massage_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4B4691B2F097200E28CE9 /* Massage_AppTests.m */; };
+		6CE4B4751B2F0BB700E28CE9 /* ASDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4B4741B2F0BB700E28CE9 /* ASDoctor.m */; };
+		6CE4B4781B2F0EE700E28CE9 /* ASSearchDoctorCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4B4771B2F0EE700E28CE9 /* ASSearchDoctorCustomCell.m */; };
+		6CE4B47E1B2F128F00E28CE9 /* nicole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B47D1B2F128F00E28CE9 /* nicole.jpg */; };
+		6CE4B4811B2F131000E28CE9 /* ASSearchDoctorTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4B4801B2F131000E28CE9 /* ASSearchDoctorTableView.m */; };
+		6CE4B4831B2F25D100E28CE9 /* placeHolder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B4821B2F25D100E28CE9 /* placeHolder.jpg */; };
+		6CE4B48C1B2F303000E28CE9 /* ASDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4B48B1B2F303000E28CE9 /* ASDetailViewController.m */; };
+		6CE4B4991B2F36A900E28CE9 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B48F1B2F36A900E28CE9 /* back.png */; };
+		6CE4B49A1B2F36A900E28CE9 /* back2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B4901B2F36A900E28CE9 /* back2.png */; };
+		6CE4B49B1B2F36A900E28CE9 /* nophotobig.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B4911B2F36A900E28CE9 /* nophotobig.png */; };
+		6CE4B49C1B2F36A900E28CE9 /* phone1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B4921B2F36A900E28CE9 /* phone1.png */; };
+		6CE4B49D1B2F36A900E28CE9 /* phone2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B4931B2F36A900E28CE9 /* phone2.png */; };
+		6CE4B49E1B2F36A900E28CE9 /* pismo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B4941B2F36A900E28CE9 /* pismo1.png */; };
+		6CE4B49F1B2F36A900E28CE9 /* pismo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B4951B2F36A900E28CE9 /* pismo2.png */; };
+		6CE4B4A01B2F36A900E28CE9 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B4961B2F36A900E28CE9 /* profile.png */; };
+		6CE4B4A11B2F36A900E28CE9 /* rating.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B4971B2F36A900E28CE9 /* rating.png */; };
+		6CE4B4A21B2F36A900E28CE9 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4B4981B2F36A900E28CE9 /* star.png */; };
+		6CE4B4A51B2F5ABE00E28CE9 /* ASDetailCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4B4A41B2F5ABE00E28CE9 /* ASDetailCustomCell.m */; };
+		FE035F461A937B328428E7ED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCF59A43D59119B01EC9598 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CE4B4641B2F097200E28CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CE4B4421B2F097200E28CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CE4B4491B2F097200E28CE9;
+			remoteInfo = "Massage App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DCF59A43D59119B01EC9598 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8E7E8A1B3071F300EF5185 /* libAWDProtobufFacetimeiMessage.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libAWDProtobufFacetimeiMessage.dylib; path = usr/lib/libAWDProtobufFacetimeiMessage.dylib; sourceTree = SDKROOT; };
+		6C8E7E8B1B3071F300EF5185 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6CE4B44A1B2F097200E28CE9 /* Massage App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Massage App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE4B44E1B2F097200E28CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE4B44F1B2F097200E28CE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CE4B4511B2F097200E28CE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CE4B4521B2F097200E28CE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CE4B4581B2F097200E28CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CE4B45A1B2F097200E28CE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CE4B45D1B2F097200E28CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6CE4B4631B2F097200E28CE9 /* Massage AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Massage AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE4B4681B2F097200E28CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE4B4691B2F097200E28CE9 /* Massage_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Massage_AppTests.m; sourceTree = "<group>"; };
+		6CE4B4731B2F0BB700E28CE9 /* ASDoctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDoctor.h; sourceTree = "<group>"; };
+		6CE4B4741B2F0BB700E28CE9 /* ASDoctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDoctor.m; sourceTree = "<group>"; };
+		6CE4B4761B2F0EE700E28CE9 /* ASSearchDoctorCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSearchDoctorCustomCell.h; sourceTree = "<group>"; };
+		6CE4B4771B2F0EE700E28CE9 /* ASSearchDoctorCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSearchDoctorCustomCell.m; sourceTree = "<group>"; };
+		6CE4B47D1B2F128F00E28CE9 /* nicole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nicole.jpg; sourceTree = "<group>"; };
+		6CE4B47F1B2F131000E28CE9 /* ASSearchDoctorTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSearchDoctorTableView.h; sourceTree = "<group>"; };
+		6CE4B4801B2F131000E28CE9 /* ASSearchDoctorTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSearchDoctorTableView.m; sourceTree = "<group>"; };
+		6CE4B4821B2F25D100E28CE9 /* placeHolder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeHolder.jpg; sourceTree = "<group>"; };
+		6CE4B48A1B2F303000E28CE9 /* ASDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDetailViewController.h; sourceTree = "<group>"; };
+		6CE4B48B1B2F303000E28CE9 /* ASDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDetailViewController.m; sourceTree = "<group>"; };
+		6CE4B48F1B2F36A900E28CE9 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		6CE4B4901B2F36A900E28CE9 /* back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2.png; sourceTree = "<group>"; };
+		6CE4B4911B2F36A900E28CE9 /* nophotobig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nophotobig.png; sourceTree = "<group>"; };
+		6CE4B4921B2F36A900E28CE9 /* phone1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone1.png; sourceTree = "<group>"; };
+		6CE4B4931B2F36A900E28CE9 /* phone2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone2.png; sourceTree = "<group>"; };
+		6CE4B4941B2F36A900E28CE9 /* pismo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pismo1.png; sourceTree = "<group>"; };
+		6CE4B4951B2F36A900E28CE9 /* pismo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pismo2.png; sourceTree = "<group>"; };
+		6CE4B4961B2F36A900E28CE9 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		6CE4B4971B2F36A900E28CE9 /* rating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rating.png; sourceTree = "<group>"; };
+		6CE4B4981B2F36A900E28CE9 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		6CE4B4A31B2F5ABE00E28CE9 /* ASDetailCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDetailCustomCell.h; sourceTree = "<group>"; };
+		6CE4B4A41B2F5ABE00E28CE9 /* ASDetailCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDetailCustomCell.m; sourceTree = "<group>"; };
+		C4CA1BC77459D3FC34153DB2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C5FDB9C9D8693089707F8AC2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE4B4471B2F097200E28CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8E7E8D1B3071F300EF5185 /* MessageUI.framework in Frameworks */,
+				FE035F461A937B328428E7ED /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE4B4601B2F097200E28CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE4B4411B2F097200E28CE9 = {
+			isa = PBXGroup;
+			children = (
+				6CE4B44C1B2F097200E28CE9 /* Massage App */,
+				6CE4B4661B2F097200E28CE9 /* Massage AppTests */,
+				6CE4B44B1B2F097200E28CE9 /* Products */,
+				F9868BC81BD10D01794EBAE7 /* Pods */,
+				A3B56D4EDEBCFDED419C7998 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE4B44B1B2F097200E28CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4B44A1B2F097200E28CE9 /* Massage App.app */,
+				6CE4B4631B2F097200E28CE9 /* Massage AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE4B44C1B2F097200E28CE9 /* Massage App */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4B4571B2F097200E28CE9 /* Main.storyboard */,
+				6CE4B48D1B2F304A00E28CE9 /* First Screen */,
+				6CE4B48E1B2F305F00E28CE9 /* Second Screen */,
+				6CE4B4731B2F0BB700E28CE9 /* ASDoctor.h */,
+				6CE4B4741B2F0BB700E28CE9 /* ASDoctor.m */,
+				6CE4B44D1B2F097200E28CE9 /* Supporting Files */,
+				6CE4B47C1B2F128F00E28CE9 /* Image */,
+			);
+			path = "Massage App";
+			sourceTree = "<group>";
+		};
+		6CE4B44D1B2F097200E28CE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4B4511B2F097200E28CE9 /* AppDelegate.h */,
+				6CE4B4521B2F097200E28CE9 /* AppDelegate.m */,
+				6CE4B45A1B2F097200E28CE9 /* Images.xcassets */,
+				6CE4B45C1B2F097200E28CE9 /* LaunchScreen.xib */,
+				6CE4B44E1B2F097200E28CE9 /* Info.plist */,
+				6CE4B44F1B2F097200E28CE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CE4B4661B2F097200E28CE9 /* Massage AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4B4691B2F097200E28CE9 /* Massage_AppTests.m */,
+				6CE4B4671B2F097200E28CE9 /* Supporting Files */,
+			);
+			path = "Massage AppTests";
+			sourceTree = "<group>";
+		};
+		6CE4B4671B2F097200E28CE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4B4681B2F097200E28CE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CE4B47C1B2F128F00E28CE9 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4B48F1B2F36A900E28CE9 /* back.png */,
+				6CE4B4901B2F36A900E28CE9 /* back2.png */,
+				6CE4B4911B2F36A900E28CE9 /* nophotobig.png */,
+				6CE4B4921B2F36A900E28CE9 /* phone1.png */,
+				6CE4B4931B2F36A900E28CE9 /* phone2.png */,
+				6CE4B4941B2F36A900E28CE9 /* pismo1.png */,
+				6CE4B4951B2F36A900E28CE9 /* pismo2.png */,
+				6CE4B4961B2F36A900E28CE9 /* profile.png */,
+				6CE4B4971B2F36A900E28CE9 /* rating.png */,
+				6CE4B4981B2F36A900E28CE9 /* star.png */,
+				6CE4B4821B2F25D100E28CE9 /* placeHolder.jpg */,
+				6CE4B47D1B2F128F00E28CE9 /* nicole.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		6CE4B48D1B2F304A00E28CE9 /* First Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4B47F1B2F131000E28CE9 /* ASSearchDoctorTableView.h */,
+				6CE4B4801B2F131000E28CE9 /* ASSearchDoctorTableView.m */,
+				6CE4B4761B2F0EE700E28CE9 /* ASSearchDoctorCustomCell.h */,
+				6CE4B4771B2F0EE700E28CE9 /* ASSearchDoctorCustomCell.m */,
+			);
+			name = "First Screen";
+			sourceTree = "<group>";
+		};
+		6CE4B48E1B2F305F00E28CE9 /* Second Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6CE4B48A1B2F303000E28CE9 /* ASDetailViewController.h */,
+				6CE4B48B1B2F303000E28CE9 /* ASDetailViewController.m */,
+				6CE4B4A31B2F5ABE00E28CE9 /* ASDetailCustomCell.h */,
+				6CE4B4A41B2F5ABE00E28CE9 /* ASDetailCustomCell.m */,
+			);
+			name = "Second Screen";
+			sourceTree = "<group>";
+		};
+		A3B56D4EDEBCFDED419C7998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C8E7E8A1B3071F300EF5185 /* libAWDProtobufFacetimeiMessage.dylib */,
+				6C8E7E8B1B3071F300EF5185 /* MessageUI.framework */,
+				4DCF59A43D59119B01EC9598 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9868BC81BD10D01794EBAE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5FDB9C9D8693089707F8AC2 /* Pods.debug.xcconfig */,
+				C4CA1BC77459D3FC34153DB2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE4B4491B2F097200E28CE9 /* Massage App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE4B46D1B2F097200E28CE9 /* Build configuration list for PBXNativeTarget "Massage App" */;
+			buildPhases = (
+				9CDD22764CCE67AF89FEF2A8 /* Check Pods Manifest.lock */,
+				6CE4B4461B2F097200E28CE9 /* Sources */,
+				6CE4B4471B2F097200E28CE9 /* Frameworks */,
+				6CE4B4481B2F097200E28CE9 /* Resources */,
+				623CE6B0C92A00B5824B18B6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Massage App";
+			productName = "Massage App";
+			productReference = 6CE4B44A1B2F097200E28CE9 /* Massage App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CE4B4621B2F097200E28CE9 /* Massage AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE4B4701B2F097200E28CE9 /* Build configuration list for PBXNativeTarget "Massage AppTests" */;
+			buildPhases = (
+				6CE4B45F1B2F097200E28CE9 /* Sources */,
+				6CE4B4601B2F097200E28CE9 /* Frameworks */,
+				6CE4B4611B2F097200E28CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CE4B4651B2F097200E28CE9 /* PBXTargetDependency */,
+			);
+			name = "Massage AppTests";
+			productName = "Massage AppTests";
+			productReference = 6CE4B4631B2F097200E28CE9 /* Massage AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE4B4421B2F097200E28CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = hh;
+				TargetAttributes = {
+					6CE4B4491B2F097200E28CE9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					6CE4B4621B2F097200E28CE9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 6CE4B4491B2F097200E28CE9;
+					};
+				};
+			};
+			buildConfigurationList = 6CE4B4451B2F097200E28CE9 /* Build configuration list for PBXProject "Massage App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CE4B4411B2F097200E28CE9;
+			productRefGroup = 6CE4B44B1B2F097200E28CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE4B4491B2F097200E28CE9 /* Massage App */,
+				6CE4B4621B2F097200E28CE9 /* Massage AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE4B4481B2F097200E28CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE4B4A11B2F36A900E28CE9 /* rating.png in Resources */,
+				6CE4B4A01B2F36A900E28CE9 /* profile.png in Resources */,
+				6CE4B4591B2F097200E28CE9 /* Main.storyboard in Resources */,
+				6CE4B49A1B2F36A900E28CE9 /* back2.png in Resources */,
+				6CE4B49B1B2F36A900E28CE9 /* nophotobig.png in Resources */,
+				6CE4B4831B2F25D100E28CE9 /* placeHolder.jpg in Resources */,
+				6CE4B49E1B2F36A900E28CE9 /* pismo1.png in Resources */,
+				6CE4B4991B2F36A900E28CE9 /* back.png in Resources */,
+				6CE4B49D1B2F36A900E28CE9 /* phone2.png in Resources */,
+				6CE4B49F1B2F36A900E28CE9 /* pismo2.png in Resources */,
+				6CE4B45E1B2F097200E28CE9 /* LaunchScreen.xib in Resources */,
+				6CE4B4A21B2F36A900E28CE9 /* star.png in Resources */,
+				6CE4B45B1B2F097200E28CE9 /* Images.xcassets in Resources */,
+				6CE4B47E1B2F128F00E28CE9 /* nicole.jpg in Resources */,
+				6CE4B49C1B2F36A900E28CE9 /* phone1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE4B4611B2F097200E28CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		623CE6B0C92A00B5824B18B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CDD22764CCE67AF89FEF2A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE4B4461B2F097200E28CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE4B4751B2F0BB700E28CE9 /* ASDoctor.m in Sources */,
+				6CE4B4781B2F0EE700E28CE9 /* ASSearchDoctorCustomCell.m in Sources */,
+				6CE4B4531B2F097200E28CE9 /* AppDelegate.m in Sources */,
+				6CE4B48C1B2F303000E28CE9 /* ASDetailViewController.m in Sources */,
+				6CE4B4501B2F097200E28CE9 /* main.m in Sources */,
+				6CE4B4A51B2F5ABE00E28CE9 /* ASDetailCustomCell.m in Sources */,
+				6CE4B4811B2F131000E28CE9 /* ASSearchDoctorTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE4B45F1B2F097200E28CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE4B46A1B2F097200E28CE9 /* Massage_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CE4B4651B2F097200E28CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CE4B4491B2F097200E28CE9 /* Massage App */;
+			targetProxy = 6CE4B4641B2F097200E28CE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CE4B4571B2F097200E28CE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE4B4581B2F097200E28CE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CE4B45C1B2F097200E28CE9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE4B45D1B2F097200E28CE9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CE4B46B1B2F097200E28CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CE4B46C1B2F097200E28CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE4B46E1B2F097200E28CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FDB9C9D8693089707F8AC2 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Massage App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CE4B46F1B2F097200E28CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4CA1BC77459D3FC34153DB2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Massage App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CE4B4711B2F097200E28CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Massage AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Massage App.app/Massage App";
+			};
+			name = Debug;
+		};
+		6CE4B4721B2F097200E28CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Massage AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Massage App.app/Massage App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE4B4451B2F097200E28CE9 /* Build configuration list for PBXProject "Massage App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE4B46B1B2F097200E28CE9 /* Debug */,
+				6CE4B46C1B2F097200E28CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE4B46D1B2F097200E28CE9 /* Build configuration list for PBXNativeTarget "Massage App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE4B46E1B2F097200E28CE9 /* Debug */,
+				6CE4B46F1B2F097200E28CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE4B4701B2F097200E28CE9 /* Build configuration list for PBXNativeTarget "Massage AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE4B4711B2F097200E28CE9 /* Debug */,
+				6CE4B4721B2F097200E28CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CE4B4421B2F097200E28CE9 /* Project object */;
+}
